@@ -5,4 +5,5 @@ package com.grishberg.datafacade.data;
  */
 public interface SingleResult<T> extends BaseResult {
     T getItem();
+    T getItemSync();
 }
